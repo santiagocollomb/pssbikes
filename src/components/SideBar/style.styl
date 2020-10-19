@@ -1,0 +1,155 @@
+.sidebar
+  position fixed
+  left 0
+  top 0
+  background transparent
+  height 100vh
+  width 40%
+  z-index 99
+
+  nav 
+    display flex
+    flex-direction column
+    row-gap 1em
+    height 100%
+
+    .bikes-menu
+      padding-top 8em
+      display flex
+      flex-direction column
+      row-gap 2em
+      background #fff
+      transform translate(-101%, 0)
+      transition all 800ms cubic-bezier(.22,.68,0,1)
+      height 100%
+      a
+        text-decoration none
+        transition all 400ms cubic-bezier(.22,.68,0,1.71)
+        &:hover
+          transform scale(1.2)
+      p
+        text-align center
+        margin 0px
+        text-transform uppercase
+        font-weight 400
+
+    .logo-space
+      position absolute
+      top 2em
+      width 45%;  
+      height 25px
+      background #fff
+      padding 1em 0em
+      border-radius 0 25px 25px 0px
+      background #fff
+      z-index 99
+      transition all 400ms cubic-bezier(.22,.68,0,1.71)
+
+      .side-nav-logo
+        display block
+        margin-left auto
+        margin-right 10px
+        height 25px
+      
+      .menu-icon
+        cursor pointer
+        padding 1em 0
+        position absolute
+        top 2%
+        left 10%
+        right inherit
+        transition all 1000ms cubic-bezier(.22,.68,0,1.11)
+
+        &:hover
+          transform scale(1.1)
+
+        .bar1 
+        .bar2 
+        .bar3 
+          width 25px
+          height 3px
+          background-color #333
+          margin 3px 0
+          transition 0.4s
+          border-radius 30px
+          box-shadow 1px 1px 3px rgba(0,0,0,0.2)
+
+        .bar1
+          width 14px
+          margin-left auto
+
+        .bar2
+          width 20px
+          margin-left auto
+
+        .bar3
+          width 25px
+  
+    .bikes-menu-bike
+      width 60%
+      display block
+      margin auto
+
+.sidebar-open
+  nav
+    .bikes-menu
+      transform translate(0, 0)
+      box-shadow 0 0 15px rgba(0,0,0,0.6)
+
+    .logo-space
+      width 100%
+      box-shadow 0 0 0 rgba(0,0,0,0)
+
+      .side-nav-logo
+        margin auto
+      .menu-icon
+        left 77% !important
+      .bar1 
+        width 25px !important
+        -webkit-transform rotate(-45deg) translate(-9px, 6px) 
+        transform rotate(-45deg) translate(-9px, 6px) 
+
+      .bar2 
+        opacity 0
+
+      .bar3 
+        width 25px !important
+        -webkit-transform rotate(45deg) translate(-8px, -8px)
+        transform rotate(45deg) translate(-8px, -8px) 
+
+@media only screen and (min-width: 60em)
+  .sidebar
+    width 12%
+    nav
+      .logo-space
+        width 50%
+        
+        .side-nav-logo
+          display block
+          margin-left auto
+          margin-right 15px
+          height 25px
+
+      .menu-icon
+        left 15%
+
+        .bar1 
+        .bar2 
+        .bar3 
+          width 30px
+          height 4px
+
+        .bar1
+          width 15px
+
+        .bar3
+          width 15px 
+
+  .sidebar-open
+    nav
+      .logo-space
+        width 100%
+
+        .side-nav-logo
+          margin auto
+ 
