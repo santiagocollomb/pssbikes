@@ -5,9 +5,9 @@ import "./style.styl"
 export default function ProSwitch({ isPro, setIsPro }) {
 
   return (
-    <div className="proswitch">
+    <div className={isPro === "yes" ? "proswitch active" : "proswitch"}>
       <Switch on="yes" off="no" value={isPro} onChange={setIsPro} />
-      <span className={isPro === 'yes' ? "ml-3 active" : "ml-3"}> VERSIÓN PRO </span>
+      <span className="ml-3">versión pro</span>
     </div>
   )
 }

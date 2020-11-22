@@ -1,0 +1,38 @@
+.cursor 
+  border-radius 100%
+  z-index 9999
+  position fixed
+  width 100px
+  height 100px
+  pointer-events none
+
+  .main-circle
+    position absolute
+    transform scale(1.4)
+    margin 0 auto
+    width 10px
+    height 10px
+    background #ed1c24
+    border-radius 50%
+    transition all 0.5s cubic-bezier(.37,.01,0,1.71)
+
+.cursor--hidden 
+  opacity 0
+
+.cursor--link-hovered 
+
+  .main-circle
+    transform scale(5)
+    opacity 0.5
+    mix-blend-mode difference
+  
+
+.cursor--clicked 
+  .main-circle
+    transform scale(5)
+    opacity 0.7
+    mix-blend-mode difference
+
+@media only screen and (max-width: 33em)
+  .cursor
+    display none

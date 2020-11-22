@@ -1,0 +1,49 @@
+#bike-description 
+  position relative
+  z-index 3
+  display flex
+  height 100vh
+
+  .bg-text
+    position absolute
+    font-size 25vw
+    bottom 0%
+    width 300%
+    margin 0
+    z-index 0
+    color #121212
+    text-transform uppercase
+    text-shadow 2px 5px 15px rgba(0,0,0,0.48)
+    transition all 400ms cubic-bezier(.22,.68,0,1.11)
+    line-height 0.9
+    
+  .description-img
+    position relative
+    width 35%
+    margin auto auto auto 10%
+
+  .description-content
+    position absolute
+    top 30%
+    left 40%
+    z-index 1
+    text-transform uppercase
+
+    h2
+      text-align left
+      position relative
+      color #fff
+      left 5%
+      text-shadow 0 2px 10px rgba(0,0,0,0.4)
+
+    p
+      color #cccccc
+      padding 0 20% 0 20%
+      text-transform none
+      &:before
+        content ''
+        margin-right 5%
+        width 10%
+        height 3px
+        background #fff
+        display inline-block

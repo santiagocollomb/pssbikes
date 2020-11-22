@@ -2,7 +2,10 @@
  "bikes": [
   {
     "page": "street",
-    "description": "Inspiramos el movimiento urbano. Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
+    "name": "street",
+    "title": "Inspiramos el movimiento urbano",
+    "description": "Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
+    "descriptionImg": "https://pssbikes.com/images/street/description-img.jpg",
     "color": "#E71D36",
     "bg": "https://pssbikes.com/bike-bgd.jpg",
     "background": "/assets/street/background.jpg",
@@ -10,11 +13,14 @@
       "price": "52.800",
       "name": "street pro",
       "nameStyle": "shadow-title",
+      "color": "#ed1c24",
       "imageHero": "https://pssbikes.com/images/street/street-pro-hero.png",
       "image": "https://pssbikes.com/images/street/street-pro.png",
       "background": "https://pssbikes.com/images/street/street-pro-bg.jpg",
       "decoration": "https://pssbikes.com/images/street/cinta.png",
       "blendMode": "none",
+      "description": "Inspiramos el movimiento urbano. Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
+      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/street-pro/street-pro-info.jpg",
       "features": [
         "Cuadro de aluminio",
         "24 velocidades",
@@ -22,14 +28,9 @@
         "Talle 1 y 2"
       ],
       "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+        "https://www.pssbikes.com/images/reweb/street-pro/street-pro2.jpg",
+        "https://www.pssbikes.com/images/reweb/street-pro/street-pro3.jpg",
+        "https://www.pssbikes.com/images/reweb/street-pro/street-pro1.jpg"
       ]
     },
     "basic": {
@@ -41,6 +42,8 @@
       "background": "https://pssbikes.com/images/street/street-basic-bg.jpg",
       "decoration": "https://pssbikes.com/images/street/cinta.png",
       "blendMode": "none",
+      "description": "Inspiramos el movimiento urbano. Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
+      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/street-pro/street-pro-info.jpg",
       "features": [
         "Cuadro de aluminio",
         "21 velocidades",
@@ -48,51 +51,25 @@
         "Talle 1 y 2"
       ],
       "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+        "https://www.pssbikes.com/images/reweb/street/street2.jpg",
+        "https://www.pssbikes.com/images/reweb/street/street3.jpg",
+        "https://www.pssbikes.com/images/reweb/street/street1.jpg"
       ]
-    }
-  },
-  {
-    "page": "gravel",
-    "description": "Pensada para quienes se alejan de la ciudad en búsqueda de nuevos senderos. La Gravel se adapta a diferentes caminos y te permite adoptar distintas posiciones al pedalear. Resiste más que una rutera y anda mucho más rápido que una Mountain Bike.",
-    "color": "#13E8BA",
-    "bg": "https://pssbikes.com/bike-bgd2.jpg",
-    "background": "/assets/street/background.jpg",
-    "basic": {
-      "price": "77.200",
-      "name": "gravel",
-      "nameStyle": "shadow-title",
-      "image": "https://pssbikes.com/bikes/street-basic.png",
-      "background": "https://pssbikes.com/images/single/background.png",
-      "decoration": "https://pssbikes.com/images/single/humo.png",
-      "features": [
-        "Cuadro de aluminio" ,
-        "Frenos mecánicos",
-        "Full Shimano claris 2x8",
-        "Talle 1 y 2"
-      ],
-      "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-      ]
-    }
+    },
+    "gallery": [
+      "https://www.pssbikes.com/images/reweb/street/street-1.jpg",
+      "https://www.pssbikes.com/images/reweb/street/street-2.jpg",
+      "https://www.pssbikes.com/images/reweb/street/street-3.jpg",
+      "https://www.pssbikes.com/images/reweb/street-pro/street-1.jpg",
+      "https://www.pssbikes.com/images/reweb/street-pro/street-2.jpg"
+    ]
   },
   {
     "page": "single-speed",
-    "description": "Dicen que la perfección existe y está en lo simple. Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
+    "name": "single speed",
+    "title": "La perfección en lo simple",
+    "description": "Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
+    "descriptionImg": "https://pssbikes.com/images/single/description-img.jpg",
     "color": "#0575A8",
     "bg": "https://pssbikes.com/bike-bgd.jpg",
     "pro": {
@@ -104,6 +81,8 @@
       "background": "https://pssbikes.com/images/single/background.png",
       "decoration": "https://pssbikes.com/images/single/humo.png",
       "blendMode": "screen",
+      "description": "La perfección en lo simple. Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
+      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/single-speed-pro/single-speed-pro.jpg",
       "features": [
         "Manubrio de ruta ergonómico", 
         "Cuadro de aluminio", 
@@ -114,14 +93,9 @@
         "Talle 1 y 2"
       ],
       "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro2.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro3.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro1.jpg"
       ]
     },
     "basic": {
@@ -133,6 +107,8 @@
       "background": "https://pssbikes.com/images/single/background.png",
       "decoration": "https://pssbikes.com/images/single/humo.png",
       "blendMode": "screen",
+      "description": "La perfección en lo simple. Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
+      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/single-speed/single-speed-info.jpg",
       "features": [
         "Cuadro de aluminio", 
         "Llantas de aluminio doble pared",
@@ -142,130 +118,18 @@
         "Talle 1 y 2"
       ],
       "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-      ]
-    }
-  },
-  {
-    "page": "electrica",
-    "description": "El mismo esfuerzo pero con muchísimo más rendimiento. Con la función de asistencia al pedaleo o con el acelerador automático, vas a poder llegar a todas partes sin llegar cansado o transpirado. Al mismo tiempo, potenciás tu rendimiento físico.",
-    "color": "#82a1b1",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "background": "/assets/street/background.jpg",
-    "pro": {
-      "price": "115.300",
-      "name": "eléctrica pro",
-      "nameStyle": "shadow-title",
-      "descripcion": "Combinamos la mejor tecnología eléctrica con un diseño atractivo y componentes de alto rendimiento. A donde quieras llegar, tu pss eléctrica te acompaña.",
-      "image": "https://pssbikes.com/bikes/street-pro.png",
-      "background": "https://pssbikes.com/images/single/background.png",
-      "decoration": "https://pssbikes.com/images/single/humo.png",
-      "features": [
-        "Cuadro de aluminio ",
-        "24 velocidades",
-        "Frenos a disco mecánicos",
-        "Talle 1 y 2"
-      ],
-      "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
+        "https://www.pssbikes.com/images/reweb/single-speed/ss-base2.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed/ss-base3.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed/ss-base1.jpg"
       ]
     },
-    "basic": {
-      "price": "106.200",
-      "name": "eléctrica",
-      "nameStyle": "shadow-title",
-      "descripcion": "¡La revolución del movimiento urbano! Te garantizamos satisfacción al pedaleo y una performance única en el segmento.",
-      "image": "https://pssbikes.com/bikes/street-basic.png",
-      "background": "https://pssbikes.com/images/single/background.png",
-      "decoration": "https://pssbikes.com/images/single/humo.png",
-      "features": [
-        "Display luminoso",
-        "Batería desmontable fácil carga",
-        "Motor 5 velocidades",
-        "25 km/h Velocidad máxima"
-      ],
-      "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-      ]
-    }
-  },
-  {
-    "page": "fixie",
-    "description": "Una experiencia de manejo única para amantes del ciclismo urbano. La fixie no podía faltar en nuestro catálogo ya que es una cleta de culto, capaz de agarrar altas velocidades.",
-    "color": "#B57EDC",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "background": "/assets/street/background.jpg",
-    "pro": {
-      "price": "75.550",
-      "name": "fixie pro",
-      "nameStyle": "shadow-title",      
-      "image": "https://pssbikes.com/bikes/street-pro.png",
-      "background": "https://pssbikes.com/images/single/background.png",
-      "decoration": "https://pssbikes.com/images/single/humo.png",
-      "features": [
-        "24 velocidades",
-        "Frenos a disco",
-        "Talles 1 y 2"
-      ],
-      "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-      ]
-    },
-    "basic": {
-      "price": "65.550",
-      "name": "fixie",
-      "nameStyle": "shadow-title",
-      "image": "https://pssbikes.com/bikes/street-basic.png",
-      "background": "https://pssbikes.com/images/single/background.png",
-      "decoration": "https://pssbikes.com/images/single/humo.png",
-      "features": [
-        "18 velocidades",
-        "Frenos V-Brake",
-        "Talles 1 y 2"
-      ],
-      "images": [
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png",
-        "https://www.cidempanama.org/files/2019/04/import_placeholder-19.png"
-      ]
-    }
+    "gallery": [
+      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-1.jpg",
+      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-2.jpg",
+      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-3.jpg",
+      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-4.jpg",
+      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-5.jpg"
+    ]
   }
-],
-  "pss": {
-    "title": "PSS",
-    "color": ""
-  }
+]
 }

@@ -1,11 +1,18 @@
-.bike-info
-  width 80%
+.info-left
   margin auto
 
+.info-right
+  margin auto auto auto 0
+
+.bike-info
+
   h1
-    font-size 3.5rem
+    transition all 400ms cubic-bezier(.22,.68,0,1.11)
+    font-size 2.8rem
     color #fff
     margin 0px
+    text-decoration none
+  
     &:before
       content ''
       margin-right 5%
@@ -13,13 +20,16 @@
       height 3px
       background #fff
       display inline-block
+      
+    &:hover
+      transform scale(1.05)
 
   .bike-info-container
-    margin-left 19%
 
     .bike-info-text
       font-size 1rem
       color #fff
+      margin-right 2rem
 
     .bike-info-list
       ul
@@ -29,9 +39,12 @@
 
     .bike-info-price
       font-size 1.5rem
-      font-weight 900
+      font-weight 400
       margin-right 1em
-      color #fff
+
+      span
+        color #fff !important
+
       &:before
         content ''
         background #fff
@@ -54,3 +67,20 @@
 
     &:first-child
       margin-left 0px
+
+@media only screen and (min-width: 60em)
+
+  .bike-info.info-left
+    margin-right 15%
+    margin-left 5%
+    
+    .bike-info-container
+      margin-left 19%
+      margin-right 0
+
+  .bike-info
+    width 80%
+    margin-left 15%
+
+    .bike-info-text
+      margin-right 0

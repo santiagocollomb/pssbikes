@@ -1,0 +1,28 @@
+.img-info-link 
+  transition all 400ms cubic-bezier(.22,.68,0,1.11)
+
+  &:hover
+    transform scale(1.05)
+
+.info-img-container
+  img 
+    width 100%
+
+@media only screen and (min-width: 60em)
+
+  .section-bikeinfo
+    position relative
+    z-index 4
+    .container
+      max-width 90rem
+      width 100%
+
+  .info-img-container
+    min-height 100vh
+    height fit-content
+
+    img 
+      width 75%
+      margin auto
+      display block
+      box-shadow 0 -2px 10px rgba(0, 0, 0, 0.16)

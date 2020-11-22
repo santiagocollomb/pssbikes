@@ -8,6 +8,7 @@ export default function ColorList({colors}) {
       {colors.map(color => ( 
         <div
           className="bike-color"
+          key={color}
           style={{ backgroundColor: color }}
         ></div>
       ))}

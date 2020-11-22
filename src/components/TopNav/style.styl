@@ -6,7 +6,6 @@
   display flex
   justify-content center
   z-index 4
-    
 
   a.link
     text-decoration none
@@ -18,9 +17,11 @@
     &:hover
       transform scale(1.1)
 
-  .top-nav-social
+  .top-nav-right
+    display flex
     position absolute
     right 1rem
+    align-content center
 
   img
     width 8em
@@ -29,9 +30,36 @@
     &:hover
       transform scale(1.1)
 
+.top-nav.with-background
+  position sticky
+  top 0
+  width 100%
+  padding 2em
+  background #000
+  
+.theme-icon
+  width 25px
+  height 25px
+  background #fff
+  border-radius 50%
+  margin-right 0.7rem
+  cursor pointer
+  transition all 800ms cubic-bezier(0.22, 0.68, 0, 1.71)
+
+  &:hover
+    transform scale(1.05)
+
+  .theme-link
+    display flex
+    height 100%
+
+  img
+    width 55%
+    margin auto
+    transition all 1000ms cubic-bezier(0.22, 0.68, 0, 1.71)
 
 @media only screen and (min-width: 60em)
   .top-nav
 
     .top-nav-social
-      right 2rem
+      right 4rem

@@ -1,0 +1,241 @@
+menu-color = white
+menu-zindex = 99
+hamburger-color = white
+hamburger-width = 50px
+hamburger-height = 50px
+hamburger-zindex = menu-zindex + 10
+
+#header
+  padding 2rem
+  position absolute
+  top 0
+  right 0
+  width calc(100% - 4rem)
+  height 10%
+  z-index hamburger-zindex
+
+  .nav
+    display flex
+
+  .nav-left
+    margin-right auto
+    display flex
+
+    img
+      align-self center
+      width 55%
+
+  .nav-right
+    margin-left auto
+    display flex
+
+    .theme-icon
+      width 25px
+      height 25px
+      background #fff
+      border-radius 50%
+      margin-right 0.7rem
+      cursor pointer
+      align-self center
+      transition all 800ms cubic-bezier(0.22, 0.68, 0, 1.71)
+
+      &:hover
+        transform scale(1.05)
+
+      .theme-link
+        display flex
+        height 100%
+
+      img
+        width 55%
+        margin auto
+        transition all 1000ms cubic-bezier(0.22, 0.68, 0, 1.71)
+
+.menu-preview
+  height 100%
+  display flex
+  img
+    width 100%
+    height auto
+    margin auto
+    opacity 0
+    transform translateY(50px)
+    transition all 800ms cubic-bezier(0.22, 0.68, 0, 1.71)
+    
+    &.visible
+      transform translateY(0px)
+      opacity 1
+#menu
+  background #121212
+  display flex
+  width 100vw
+  height 100%
+  left 0
+  opacity 0
+  overflow hidden
+  position fixed
+  text-align center
+  top 0
+  transition all 0.7s ease-in-out
+  visibility hidden
+  z-index menu-zindex
+
+  &.open
+    opacity 1
+    visibility visible
+    for i in (1)..(10)
+      li:nth-child({i})
+        animation-delay (i * 0.1s)
+    li
+      animation-duration 1.0s
+      animation-fill-mode both
+      animation-name fadeInUp
+  ul
+    &:hover
+      a
+        opacity 0.5
+    a
+      -webkit-transform translateZ(0)
+      transition opacity 0.3s ease-in-out
+      &:hover
+        opacity 1
+
+  .menu-row
+    display flex
+
+    .col-12
+      display flex
+      align-self center
+      justify-content center
+      flex-direction column
+
+    .main-nav
+      height fit-content
+      align-self center
+      margin auto
+      margin-bottom 4rem
+
+      ul
+        list-style none
+        margin 0
+        padding 0
+      a
+        color menu-color
+        display block
+        font-size 1.5rem
+        font-weight bold
+        padding 1rem 1rem
+        text-decoration none
+        text-transform uppercase
+        &:first
+          padding-top 0
+
+    .socials
+      display inline-flex
+      align-content center
+      justify-content center
+
+      .social-link
+        padding 1rem 1.5rem
+        transition all 400ms cubic-bezier(.22, .68, 0, 1.71)
+
+        a
+          text-decoration none
+          color #fff
+          display flex
+          align-content center
+
+          img
+            width 1.4rem
+            filter invert(1)
+            margin-right 10px
+
+          span
+            color #fff
+
+        &:hover
+          transform scale(1.15)
+
+.toggle-menu
+  background-color transparent
+  border none
+  cursor pointer
+  display inline-block
+  float right
+  height hamburger-height
+  outline none
+  padding 0
+  pointer-events: initial
+  position: relative
+  vertical-align: middle
+  width: hamburger-width
+  z-index hamburger-zindex
+  transition all 800ms cubic-bezier(0.22, 0.68, 0, 1.71)
+
+  &:hover
+    transform scale(1.05)
+
+  span
+    background-color: hamburger-color
+    content: ""
+    display: block
+    height: 3px
+    left: calc(50% - 13px )
+    position: absolute
+    top: calc(50% - 1px )
+    transform-origin: 50% 50%
+    transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear
+    width: 26px
+    box-shadow 0px 3px 6px rgba(0,0,0,0.16)
+
+    &:before
+    &:after
+      background-color: hamburger-color
+      content: ""
+      display: block
+      height 3px
+      position: absolute
+      transform-origin: 50% 50%
+      transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out,  transform 0.2s linear
+      width: 26px
+
+    &:before
+      top: 7px
+
+    &:after
+      top: -7px
+
+  &.active
+    span
+      background-color: transparent
+      transition: background 0.2s ease-out
+      &:before, &:after
+        transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out
+      &:before
+        top: 0
+        transform: rotate3d(0, 0, 1, -45deg)
+      &:after
+        top: 0
+        transform: rotate3d(0, 0, 1, 45deg)
+
+@media only screen and (min-width: 60em)
+  #header
+    .nav-left
+      img 
+        width 20%
+  #menu
+    text-align right
+
+
+    .menu-row
+      margin-left auto
+
+      .socials
+        display flex
+        flex-direction column
+
+      .main-nav
+        margin auto
+
+        a
+          font-size 2.5rem

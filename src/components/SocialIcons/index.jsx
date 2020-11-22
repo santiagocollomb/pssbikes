@@ -7,12 +7,22 @@ export default function SocialIcons() {
   return (
     <div className="social-icons-container">
       <div className="social-icon">
-        <a href="http://" target="_blank" rel="noopener noreferrer" className="social-icons-link">
+        <a
+          href="https://www.facebook.com/pssbikes/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icons-link hoverable"
+        >
           <img src={Facebook} alt="" />
         </a>
       </div>
       <div className="social-icon">
-        <a href="http://" target="_blank" rel="noopener noreferrer" className="social-icons-link">
+        <a
+          href="https://www.instagram.com/pssbikes/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-icons-link hoverable"
+        >
           <img src={Instagram} alt="" />
         </a>
       </div>

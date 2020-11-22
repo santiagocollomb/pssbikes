@@ -6,7 +6,6 @@
   background-repeat no-repeat
 
 .section-half
-  min-height 100vh
   padding 40px 0px
 
 .section-small
@@ -22,8 +21,8 @@
   margin 0px !important
   width 100% !important
 
-.bg-black
-  background-color #1a1a1a
+.bg-primary
+  background #121212
 
 .bg-white
   background-color #fff
@@ -35,7 +34,7 @@
   text-shadow 2px 2px 6px rgba(0,0,0,0.16)
 
 .subtitle
-  font-size calc(0.3em + 1vw)
+  font-size calc(0.7em + 1vw)
 
 .uppercase
   text-transform uppercase
@@ -55,6 +54,12 @@
 .text-gray
   color #7a7a7a
 
+.text-light-gray
+  color #eaeaea
+
+.text-red 
+  color #ed1c24
+
 .text-primary
   color color-primary
 
@@ -65,6 +70,9 @@
 
 .flex
   display flex
+
+.align-center
+  align-self center
 
 // WIDTH
 .width-full
@@ -84,6 +92,11 @@
 
 .w-90
   width 90% !important
+
+// HEIGHT
+
+.h-100
+  height 100vh !important
 
 // MARGINS
 .m-0
@@ -147,7 +160,6 @@
 .mr-3 
   margin-right 1em !important
 
-
 .mr-4 
   margin-right 1.5em !important
 
@@ -181,6 +193,9 @@
 
 
 // PADDINGS 
+.p-0
+  padding 0px !important
+
 .pb-0 
   padding-bottom 0px !important
 
@@ -236,6 +251,34 @@
 .text-shadow
   text-shadow 1px 1px 3px rgba(0,0,0,0.16) 
 
+// BUTTON
+.btn 
+  color #293241
+  padding 0.5rem 3rem
+  font-size 0.8rem
+  text-transform uppercase
+  border-radius 4px
+  font-weight 400
+  display block
+  cursor pointer
+  border none
+  background transparent
+  text-align center
+  text-decoration none
+  box-shadow 1px 1px 10px rgba(0,0,0,0.15)
+  transition all 300ms cubic-bezier(.57,.21,.69,1.25)
+
+.btn:hover
+  background-color rgba(0, 0, 0, 0.92)
+  color #FFFDFD
+  transform scale(1.05)
+
+.btn.btn-black 
+  background #fff
+  color #000
+
+.btn.btn-rounded
+  border-radius 40px
 
 /* PANTALLAS GRANDES */
 @media only screen and (min-width: 60em)
@@ -244,7 +287,6 @@
     height calc(100vh - 320px)
 
   .section-half
-    min-height calc(100vh - 180px)
     padding 90px 0px
 
   .section-small
@@ -255,5 +297,17 @@
   .width-full
     width 50% !important
     padding 3rem 0
+
+.line
+  position relative
+  display inline-block
+  vertical-align middle
+  width 20px
+  height 2px
+  background #ed1c24
+  margin 0 7px
+  margin-right 6px
+  transition all .3s
+  align-self center
 
   

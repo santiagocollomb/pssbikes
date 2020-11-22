@@ -1,17 +1,25 @@
 .images-container
   margin auto
   display grid
-  grid-template-columns 20% 20% 20% 20%
-  column-gap 20px
+  grid-template-columns 30% 30% 30%
+  height 150px
+  column-gap 25px
   row-gap 20px
 
-  img
+  .image-item
     width 100%
     box-shadow 1px 1px 3px rgba(0,0,0,0.5)
+    cursor pointer
+    transition all 400ms cubic-bezier(.22,.68,0,1.11)
+
+    &:hover
+      transform scale(1.05)  
+
+
 
 @media only screen and (min-width: 60em)
   .icons-container
     margin auto
     display grid
-    grid-template-columns 20% 20% 20% 20%
-    column-gap 6.6%
+    grid-template-columns 30% 30% 30%
+    column-gap 7%

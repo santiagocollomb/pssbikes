@@ -2,7 +2,15 @@
 module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-stylus`, 
+    'gatsby-plugin-stylus', 
+    'gatsby-plugin-layout',
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-anchor-links`,
+      options: {
+        duration: 500
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
