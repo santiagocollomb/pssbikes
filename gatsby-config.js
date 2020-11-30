@@ -3,7 +3,6 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-stylus",
     "gatsby-plugin-layout",
-    //"gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
