@@ -10,7 +10,7 @@ export default function SectionHome() {
       className="section-full"
       style={{
         backgroundImage:
-          "url(https://www.pssbikes.com/images/reweb/bg-home1.jpg)",
+          "url(https://www.pssbikes.com/images/reweb/bg-home2.jpg)",
       }}
     >
       <div className="container">
@@ -19,15 +19,18 @@ export default function SectionHome() {
           <div className="col-6">
             <div className="home-content">
               <div className="home-title">
-                <h1 className="shadow-title">
-                  BICICLETAS PATAGÓNICAS
-                  <br /> Y URBANAS
+                <h1 className="shadow-title ">
+                  <span className="text-white title-medium">BICICLETAS</span>
+                  <span className="text-white title-regular">PATAGÓNICAS</span>
+                  <span className="text-red title-bold"> Y URBANAS</span>
                 </h1>
-                <AnchorLink to="/#street">
-                  <button className="btn btn-black btn-rounded hoverable mt-4">
-                    Ver más
-                  </button>
-                </AnchorLink>
+                <div className="btn-container">
+                  <AnchorLink to="/#street">
+                    <button className="btn btn-black btn-rounded hoverable mt-4">
+                      Ver más
+                    </button>
+                  </AnchorLink>
+                </div>
               </div>
             </div>
           </div>
