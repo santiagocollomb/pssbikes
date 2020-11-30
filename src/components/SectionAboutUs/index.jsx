@@ -1,8 +1,7 @@
-import React from 'react'
-import './style.styl'
+import React from "react"
+import "./style.styl"
 
-export default function SectionAboutUs () { 
-
+export default function SectionAboutUs() {
   return (
     <section id="about" className="section-half bg-primary pb-0 pt-0">
       <div className="row">
@@ -10,7 +9,7 @@ export default function SectionAboutUs () {
           <div className="container align-center">
             <h2 className="title text-red text-bold mb-0">Nosotros</h2>
             <p className="text-light-gray">
-              Nacimos en el 2017 en la cima de la Patagonia argentina. Aquel año
+              Nacimos en el 2017 en el cima de la Patagonia argentina. Aquel año
               creamos nuestra primer bici eléctrica, pero arrancamos mucho antes
               con planos y diseños. ¿Nuestro objetivo? Revolucionar el
               movimiento.

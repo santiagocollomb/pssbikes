@@ -36,7 +36,7 @@ class Transition extends React.PureComponent {
                 ...getTransitionStyles[status],
               }}
               className="body"
-              style={menuIsOpen ? {overflow: 'hidden', height: '100vh'} : {}}
+              style={menuIsOpen ? { height: "100vh" } : {}}
             >
               {children}
             </div>

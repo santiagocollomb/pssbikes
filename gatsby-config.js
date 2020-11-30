@@ -1,15 +1,14 @@
-
 module.exports = {
   plugins: [
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-stylus', 
-    'gatsby-plugin-layout',
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-stylus",
+    "gatsby-plugin-layout",
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-anchor-links`,
       options: {
-        duration: 500
-      }
+        duration: 500,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -20,8 +19,8 @@ module.exports = {
         background_color: `#F2F2F2`,
         theme_color: `#636A73`,
         display: `standalone`,
-        icon: './src/assets/icon.png'
-      }
+        icon: "./src/assets/icon.png",
+      },
     },
-  ]
+  ],
 }

@@ -1,14 +1,13 @@
-import { Link } from 'gatsby'
-import React from 'react' 
-import ByDigit from '../ByDigit/index'
-import Facebook from '../SocialIcons/facebook.svg'
+import { Link } from "gatsby"
+import React from "react"
+import ByDigit from "../ByDigit/index"
+import Facebook from "../SocialIcons/facebook.svg"
 import Instagram from "../SocialIcons/instagram.svg"
 import Youtube from "../SocialIcons/youtube.svg"
 
 import "./style.styl"
 
-export default function Footer({menuIsOpen}) {
-
+export default function Footer({ menuIsOpen }) {
   return (
     <footer
       className="bg-primary"
@@ -56,7 +55,7 @@ export default function Footer({menuIsOpen}) {
         </div>
 
         <div className="row">
-          <div className="col-6 down">
+          <div className="col-8 down">
             <h2>
               <strong className="c-grey">
                 ® 2020 <div className="line"></div>
@@ -67,12 +66,11 @@ export default function Footer({menuIsOpen}) {
               </Link>
             </h2>
           </div>
-          <div className="col-6 down">
+          <div className="col-4 down">
             <ByDigit />
           </div>
         </div>
       </div>
     </footer>
   )
-
 }

@@ -7,12 +7,13 @@ hamburger-zindex = menu-zindex + 10
 
 #header
   padding 2rem
-  position absolute
+  position fixed
   top 0
   right 0
   width calc(100% - 4rem)
   height 10%
   z-index hamburger-zindex
+  transition all 200ms cubic-bezier(.57,.21,.69,1.71)
 
   .nav
     display flex
@@ -21,9 +22,16 @@ hamburger-zindex = menu-zindex + 10
     margin-right auto
     display flex
 
+    a
+      display contents
+
     img
       align-self center
       width 55%
+      filter drop-shadow(1px 1px 1px rgba(0,0,0,0.4))
+      position relative
+      top 0
+      transition all 600ms cubic-bezier(0.22, 0.68, 0, 1.21)
 
   .nav-right
     margin-left auto
@@ -37,7 +45,10 @@ hamburger-zindex = menu-zindex + 10
       margin-right 0.7rem
       cursor pointer
       align-self center
-      transition all 800ms cubic-bezier(0.22, 0.68, 0, 1.71)
+      filter drop-shadow(2px 2px 5px #000)
+      position relative
+      top 0
+      transition all 400ms cubic-bezier(0.22, 0.68, 0, 1.21)
 
       &:hover
         transform scale(1.05)
@@ -50,6 +61,19 @@ hamburger-zindex = menu-zindex + 10
         width 55%
         margin auto
         transition all 1000ms cubic-bezier(0.22, 0.68, 0, 1.71)
+
+  &.header-hiden
+    .nav-right
+      .theme-icon
+        top -200px
+
+      .toggle-menu
+        top -200px
+        
+    .nav-left
+      img
+        top -200px
+
 
 .menu-preview
   height 100%
@@ -170,7 +194,10 @@ hamburger-zindex = menu-zindex + 10
   vertical-align: middle
   width: hamburger-width
   z-index hamburger-zindex
-  transition all 800ms cubic-bezier(0.22, 0.68, 0, 1.71)
+  filter drop-shadow(2px 2px 5px black)
+  position relative
+  top 0
+  transition all 800ms cubic-bezier(0.22, 0.68, 0, 1.21)
 
   &:hover
     transform scale(1.05)

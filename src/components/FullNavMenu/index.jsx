@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import Media from "react-media"
 import Facebook from "../SocialIcons/facebook.svg"
@@ -7,12 +7,32 @@ import Youtube from "../SocialIcons/youtube.svg"
 import Moon from "./moon.svg"
 import LogoFull from "../../assets/logo-full.svg"
 
-import './style.styl'
+import "./style.styl"
 
-export default function FullNavMenu({ toggleTheme, isOpen, openMenu }) {
-
+export default function FullNavMenu({
+  toggleTheme,
+  isOpen,
+  openMenu,
+  closeMenu,
+}) {
   const [activePreview, setActivePreview] = useState()
-  
+  const [prevScrollPos, setPrevScrollPos] = useState(0)
+  const [visible, setVisible] = useState(true)
+
+  const handleScroll = () => {
+    // find current scroll position
+    const currentScrollPos = window.pageYOffset
+
+    setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10)
+    setPrevScrollPos(currentScrollPos)
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll)
+
+    return () => window.removeEventListener("scroll", handleScroll)
+  }, [prevScrollPos, visible, handleScroll])
+
   const links = [
     {
       text: "STREET",
@@ -27,23 +47,23 @@ export default function FullNavMenu({ toggleTheme, isOpen, openMenu }) {
     {
       text: "CONTACTO",
       url: "/contacto",
-      preview:
-        "",
+      preview: "",
     },
     {
       text: "NOSOTROS",
       url: "/nosotros",
-      preview:
-        "",
+      preview: "",
     },
   ]
 
   return (
     <>
-      <header id="header">
+      <header id="header" className={visible ? "" : "header-hiden"}>
         <nav className="nav">
           <div className="nav-left">
-            <img src={LogoFull} alt="" />
+            <Link to="/" className="hoverable" onClick={() => closeMenu()}>
+              <img src={LogoFull} alt="" />
+            </Link>
           </div>
 
           <div className="nav-right">

@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React, { useState } from "react"
+import { Swiper, SwiperSlide } from "swiper/react"
 import Lightbox from "react-image-lightbox"
 
 import "react-image-lightbox/style.css"
 import "swiper/swiper-bundle.min.css"
-import './style.styl'
+import "./style.styl"
 
-export default function SecrionBikeGallery({gallery}) {
-
+export default function SecrionBikeGallery({ gallery }) {
   const [isOpen, setIsOpen] = useState(false)
   const [photoIndex, setPhotoIndex] = useState()
 
@@ -19,12 +18,18 @@ export default function SecrionBikeGallery({gallery}) {
 
   return (
     <>
-      <section className="section-half bg-primary pt-0">
+      <section className="section-half bg-primary">
         <Swiper
-          spaceBetween={500}
+          spaceBetween={150}
           slidesPerView={3}
           centeredSlides={true}
           loop={true}
+          breakpoints={{
+            // when window width is >= 640px
+            640: {
+              spaceBetween: "500px",
+            },
+          }}
         >
           {gallery.map((image, i) => (
             <SwiperSlide key={image}>

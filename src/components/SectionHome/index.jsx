@@ -4,14 +4,13 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import "./style.styl"
 
 export default function SectionHome() {
-
   return (
     <section
       id="home"
       className="section-full"
       style={{
         backgroundImage:
-          "url(https://www.pssbikes.com/images/reweb/bg-home.jpg)",
+          "url(https://www.pssbikes.com/images/reweb/bg-home1.jpg)",
       }}
     >
       <div className="container">
@@ -21,7 +20,8 @@ export default function SectionHome() {
             <div className="home-content">
               <div className="home-title">
                 <h1 className="shadow-title">
-                  HACEMOS BICIS <br /> ELÉCTRICAS Y URBANAS
+                  BICICLETAS PATAGÓNICAS
+                  <br /> Y URBANAS
                 </h1>
                 <AnchorLink to="/#street">
                   <button className="btn btn-black btn-rounded hoverable mt-4">

@@ -2,13 +2,12 @@ import React, { useState } from "react"
 import Footer from "../components/Footer/index"
 import Cursor from "../components/Cursor/index"
 import FullNavMenu from "../components/FullNavMenu/index"
-import Transition from '../components/transition'
+import Transition from "../components/transition"
 
 export default function Layout({ children, location }) {
+  const [lightTheme, setLightTheme] = useState(false)
+  const [menuIsOpen, setMenuIsOpen] = useState(false)
 
-  const [ lightTheme, setLightTheme ] = useState(false)
-  const [ menuIsOpen, setMenuIsOpen ] = useState(false)
-  
   const toggleTheme = () => {
     setLightTheme(!lightTheme)
   }
@@ -17,13 +16,22 @@ export default function Layout({ children, location }) {
     setMenuIsOpen(!menuIsOpen)
   }
 
+  const closeMenu = () => {
+    setMenuIsOpen(false)
+  }
+
   return (
     <>
-      <div className={lightTheme ? 'light-theme' : ''} >
+      <div className={lightTheme ? "light-theme" : ""}>
         <Cursor />
-        <FullNavMenu toggleTheme={toggleTheme} openMenu={openMenu} isOpen={menuIsOpen} />
+        <FullNavMenu
+          toggleTheme={toggleTheme}
+          openMenu={openMenu}
+          closeMenu={closeMenu}
+          isOpen={menuIsOpen}
+        />
 
-        <Transition location={location} menuIsOpen={menuIsOpen} >
+        <Transition location={location} menuIsOpen={menuIsOpen}>
           {children}
         </Transition>
 
@@ -31,5 +39,4 @@ export default function Layout({ children, location }) {
       </div>
     </>
   )
-
 }

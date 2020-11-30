@@ -1,135 +1,134 @@
-{ 
- "bikes": [
-  {
-    "page": "street",
-    "name": "street",
-    "title": "Inspiramos el movimiento urbano",
-    "description": "Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
-    "descriptionImg": "https://pssbikes.com/images/street/description-img.jpg",
-    "color": "#E71D36",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "background": "/assets/street/background.jpg",
-    "pro": {
-      "price": "52.800",
-      "name": "street pro",
-      "nameStyle": "shadow-title",
-      "color": "#ed1c24",
-      "imageHero": "https://pssbikes.com/images/street/street-pro-hero.png",
-      "image": "https://pssbikes.com/images/street/street-pro.png",
-      "background": "https://pssbikes.com/images/street/street-pro-bg.jpg",
-      "decoration": "https://pssbikes.com/images/street/cinta.png",
-      "blendMode": "none",
-      "description": "Inspiramos el movimiento urbano. Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
-      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/street-pro/street-pro-info.jpg",
-      "features": [
-        "Cuadro de aluminio",
-        "24 velocidades",
-        "Frenos a disco mecánicos",
-        "Talle 1 y 2"
-      ],
-      "images": [
-        "https://www.pssbikes.com/images/reweb/street-pro/street-pro2.jpg",
-        "https://www.pssbikes.com/images/reweb/street-pro/street-pro3.jpg",
-        "https://www.pssbikes.com/images/reweb/street-pro/street-pro1.jpg"
-      ]
-    },
-    "basic": {
-      "price": "40.800",
+{
+  "bikes": [
+    {
+      "page": "street",
       "name": "street",
-      "nameStyle": "shadow-title",
-      "imageHero": "https://pssbikes.com/images/street/street-basic-hero.png",
-      "image": "https://pssbikes.com/images/street/street-basic.png",
-      "background": "https://pssbikes.com/images/street/street-basic-bg.jpg",
-      "decoration": "https://pssbikes.com/images/street/cinta.png",
-      "blendMode": "none",
-      "description": "Inspiramos el movimiento urbano. Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
-      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/street-pro/street-pro-info.jpg",
-      "features": [
-        "Cuadro de aluminio",
-        "21 velocidades",
-        "Frenos V-Brake",
-        "Talle 1 y 2"
-      ],
-      "images": [
-        "https://www.pssbikes.com/images/reweb/street/street2.jpg",
-        "https://www.pssbikes.com/images/reweb/street/street3.jpg",
-        "https://www.pssbikes.com/images/reweb/street/street1.jpg"
+      "title": "Inspiramos el movimiento urbano",
+      "description": "Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
+      "descriptionImg": "https://pssbikes.com/images/street/description-img.jpg",
+      "color": "#E71D36",
+      "bg": "https://pssbikes.com/bike-bgd.jpg",
+      "background": "/assets/street/background.jpg",
+      "pro": {
+        "price": "52.800",
+        "name": "street pro",
+        "nameStyle": "shadow-title",
+        "color": "#ed1c24",
+        "imageHero": "https://pssbikes.com/images/street/street-pro-hero.png",
+        "image": "https://pssbikes.com/images/street/street-pro.png",
+        "background": "https://pssbikes.com/images/street/street-pro-bg.jpg",
+        "decoration": "https://pssbikes.com/images/street/cinta.png",
+        "blendMode": "none",
+        "description": "Inspiramos el movimiento urbano. Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
+        "bikeInfoImg": "https://www.pssbikes.com/images/reweb/street-pro/street-pro-info.jpg",
+        "features": [
+          "Cuadro de aluminio",
+          "24 velocidades",
+          "Frenos a disco mecánicos",
+          "Talle 1 y 2"
+        ],
+        "images": [
+          "https://www.pssbikes.com/images/reweb/street-pro/street-pro2.jpg",
+          "https://www.pssbikes.com/images/reweb/street-pro/street-pro3.jpg",
+          "https://www.pssbikes.com/images/reweb/street-pro/street-pro1.jpg"
+        ]
+      },
+      "basic": {
+        "price": "40.800",
+        "name": "street",
+        "nameStyle": "shadow-title",
+        "imageHero": "https://pssbikes.com/images/street/street-basic-hero.png",
+        "image": "https://pssbikes.com/images/street/street-basic.png",
+        "background": "https://pssbikes.com/images/street/street-basic-bg.jpg",
+        "decoration": "https://pssbikes.com/images/street/cinta.png",
+        "blendMode": "none",
+        "description": "Inspiramos el movimiento urbano. Este modelo es ideal para el uso diario o de paseo en la ciudad. Sus ruedas finas y la liviandad del cuadro, hacen que sea un bicicleta liviana y rapidísima.",
+        "bikeInfoImg": "https://www.pssbikes.com/images/reweb/street-pro/street-pro-info.jpg",
+        "features": [
+          "Cuadro de aluminio",
+          "21 velocidades",
+          "Frenos V-Brake",
+          "Talle 1 y 2"
+        ],
+        "images": [
+          "https://www.pssbikes.com/images/reweb/street/street2.jpg",
+          "https://www.pssbikes.com/images/reweb/street/street3.jpg",
+          "https://www.pssbikes.com/images/reweb/street/street1.jpg"
+        ]
+      },
+      "gallery": [
+        "https://www.pssbikes.com/images/reweb/street/street-1.jpg",
+        "https://www.pssbikes.com/images/reweb/street/street-3.jpg",
+        "https://www.pssbikes.com/images/reweb/street-pro/street-2.jpg",
+        "https://www.pssbikes.com/images/reweb/street-pro/street-pro-12.jpg"
       ]
     },
-    "gallery": [
-      "https://www.pssbikes.com/images/reweb/street/street-1.jpg",
-      "https://www.pssbikes.com/images/reweb/street/street-2.jpg",
-      "https://www.pssbikes.com/images/reweb/street/street-3.jpg",
-      "https://www.pssbikes.com/images/reweb/street-pro/street-1.jpg",
-      "https://www.pssbikes.com/images/reweb/street-pro/street-2.jpg"
-    ]
-  },
-  {
-    "page": "single-speed",
-    "name": "single speed",
-    "title": "La perfección en lo simple",
-    "description": "Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
-    "descriptionImg": "https://pssbikes.com/images/single/description-img.jpg",
-    "color": "#0575A8",
-    "bg": "https://pssbikes.com/bike-bgd.jpg",
-    "pro": {
-      "price": "38.900",
+    {
+      "page": "single-speed",
       "name": "single speed",
-      "nameStyle": "blend-title",
-      "imageHero": "https://pssbikes.com/images/single/single-speed-pro-hero.png",
-      "image": "https://pssbikes.com/images/single/single-speed-pro.png",
-      "background": "https://pssbikes.com/images/single/background.png",
-      "decoration": "https://pssbikes.com/images/single/humo.png",
-      "blendMode": "screen",
-      "description": "La perfección en lo simple. Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
-      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/single-speed-pro/single-speed-pro.jpg",
-      "features": [
-        "Manubrio de ruta ergonómico", 
-        "Cuadro de aluminio", 
-        "Llantas de aluminio doble pared",
-        "Transmisión Single Speed",
-        "Rodado 700x32C",
-        "Frenos V-Brake.",
-        "Talle 1 y 2"
-      ],
-      "images": [
-        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro2.jpg",
-        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro3.jpg",
-        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro1.jpg"
+      "title": "La perfección en lo simple",
+      "description": "Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
+      "descriptionImg": "https://pssbikes.com/images/single/description-img.jpg",
+      "color": "#0575A8",
+      "bg": "https://pssbikes.com/bike-bgd.jpg",
+      "pro": {
+        "price": "38.900",
+        "name": "single speed",
+        "nameStyle": "blend-title",
+        "imageHero": "https://pssbikes.com/images/single/single-speed-pro-hero.png",
+        "image": "https://pssbikes.com/images/single/single-speed-pro.png",
+        "background": "https://pssbikes.com/images/single/background.png",
+        "decoration": "https://pssbikes.com/images/single/humo.png",
+        "blendMode": "screen",
+        "description": "La perfección en lo simple. Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
+        "bikeInfoImg": "https://www.pssbikes.com/images/reweb/single-speed-pro/single-speed-pro.jpg",
+        "features": [
+          "Manubrio de ruta ergonómico",
+          "Cuadro de aluminio",
+          "Llantas de aluminio doble pared",
+          "Transmisión Single Speed",
+          "Rodado 700x32C",
+          "Frenos V-Brake.",
+          "Talle 1 y 2"
+        ],
+        "images": [
+          "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro2.jpg",
+          "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro3.jpg",
+          "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-pro1.jpg"
+        ]
+      },
+      "basic": {
+        "price": "38.100",
+        "name": "single speed",
+        "nameStyle": "blend-title",
+        "imageHero": "https://pssbikes.com/images/single/single-speed-basic-hero.png",
+        "image": "https://pssbikes.com/images/single/single-speed-basic.png",
+        "background": "https://pssbikes.com/images/single/background.png",
+        "decoration": "https://pssbikes.com/images/single/humo.png",
+        "blendMode": "screen",
+        "description": "La perfección en lo simple. Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
+        "bikeInfoImg": "https://www.pssbikes.com/images/reweb/single-speed/single-speed-info.jpg",
+        "features": [
+          "Cuadro de aluminio",
+          "Llantas de aluminio doble pared",
+          "Transmisión Single Speed",
+          "Rodado 700x32C",
+          "Frenos V-Brake.",
+          "Talle 1 y 2"
+        ],
+        "images": [
+          "https://www.pssbikes.com/images/reweb/single-speed/ss-base2.jpg",
+          "https://www.pssbikes.com/images/reweb/single-speed/ss-base3.jpg",
+          "https://www.pssbikes.com/images/reweb/single-speed/ss-base1.jpg"
+        ]
+      },
+      "gallery": [
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-1.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-2.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-3.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-4.jpg",
+        "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-5.jpg"
       ]
-    },
-    "basic": {
-      "price": "38.100",
-      "name": "single speed",
-      "nameStyle": "blend-title",
-      "imageHero": "https://pssbikes.com/images/single/single-speed-basic-hero.png",
-      "image": "https://pssbikes.com/images/single/single-speed-basic.png",
-      "background": "https://pssbikes.com/images/single/background.png",
-      "decoration": "https://pssbikes.com/images/single/humo.png",
-      "blendMode": "screen",
-      "description": "La perfección en lo simple. Nuestra Single Speed es la clásica bicicleta de ciudad: ligera, sencilla de manejar y requiere muy poco mantenimiento. Consulta en ambos casos por modificación de cubiertas y otros accesorios.",
-      "bikeInfoImg": "https://www.pssbikes.com/images/reweb/single-speed/single-speed-info.jpg",
-      "features": [
-        "Cuadro de aluminio", 
-        "Llantas de aluminio doble pared",
-        "Transmisión Single Speed",
-        "Rodado 700x32C",
-        "Frenos V-Brake.",
-        "Talle 1 y 2"
-      ],
-      "images": [
-        "https://www.pssbikes.com/images/reweb/single-speed/ss-base2.jpg",
-        "https://www.pssbikes.com/images/reweb/single-speed/ss-base3.jpg",
-        "https://www.pssbikes.com/images/reweb/single-speed/ss-base1.jpg"
-      ]
-    },
-    "gallery": [
-      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-1.jpg",
-      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-2.jpg",
-      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-3.jpg",
-      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-4.jpg",
-      "https://www.pssbikes.com/images/reweb/single-speed-pro/ss-5.jpg"
-    ]
-  }
-]
+    }
+  ]
 }
