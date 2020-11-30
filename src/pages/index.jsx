@@ -46,7 +46,10 @@ export default function Home() {
           content="Bicicletas patagónicas y urbanas. Fabricamos los productos a medida, garantizando calidad y alto rendimiento, con componentes de primera línea."
         />
 
-        <meta property="og:image" content="LINK A LA IMAGEN DESTACADA" />
+        <meta
+          property="og:image"
+          content="https://pssbikes.com/images/og/og-home.jpg"
+        />
 
         <meta property="og:url" content="https://pssbikes.com" />
 
