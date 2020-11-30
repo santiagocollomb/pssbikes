@@ -10,7 +10,7 @@ export default function SectionHome() {
       className="section-full"
       style={{
         backgroundImage:
-          "url(https://www.pssbikes.com/images/reweb/bg-home2.jpg)",
+          "url(https://www.pssbikes.com/images/reweb/pss-bg.jpg)",
       }}
     >
       <div className="container">
@@ -36,6 +36,16 @@ export default function SectionHome() {
           </div>
         </div>
       </div>
+      <img
+        src="https://www.pssbikes.com/images/reweb/pss-bg-bike.png"
+        alt=""
+        className="home-bike"
+      />
+      <img
+        src="https://www.pssbikes.com/images/reweb/pss-bg-deco.png"
+        alt="Logo"
+        className="decoration"
+      />
     </section>
   )
 }

@@ -32,7 +32,7 @@ export default function Home() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>PSS BIKES | </title>
+        <title>PSS bikes | bicicletas patagónicas y urbanas</title>
         <meta
           name="description"
           content="Bicicletas patagónicas y urbanas. Fabricamos los productos a medida, garantizando calidad y alto rendimiento, con componentes de primera línea."
